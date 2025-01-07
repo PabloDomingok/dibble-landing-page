@@ -12,9 +12,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 20px 50px;
     background-color: #1b1afe;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.2);
+
 }
 
 ul{
@@ -36,8 +37,16 @@ li a{
     gap: 5px;
 }
 
-.get-started-button{
+.green-button{
     background-color: #a7f36d;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.white-button{
+    background-color: #e7e7e7;
     color: #000000;
     padding: 10px 20px;
     border-radius: 5px;
@@ -64,3 +73,61 @@ i{
 }
 
 /* main */
+
+/*hero*/
+
+.hero {
+    padding: 20px;
+    background-image: url(assets/hero-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 50px 0 20px 50px;
+    gap: 35px;
+}
+
+.hero-text h3{
+    color: #a7f36d;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero-text h2{
+    color: #e7e7e7;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.hero-text p{
+    color: #e7e7e7;
+    line-height: 1.5;
+}
+
+.buttons-hero{
+    display: flex;
+    gap: 15px;
+}
+
+.hero-features{
+    display: flex;
+    gap:15px;
+}
+
+.hero-features p{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-features i{
+    color: #a7f36d;
+}
+
