@@ -6,6 +6,7 @@
 }
 
 
+
 /* header */
 
 header{
@@ -131,3 +132,58 @@ i{
     color: #a7f36d;
 }
 
+/*Our Clients*/
+
+.our-clients {
+    padding: 20px;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.our-clients-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-right: 50px;
+    gap: 35px;
+}
+
+.our-clients-text h3{
+    color: #1b1afe;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.our-clients-text h2{
+    color: #000000;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.our-clients-text p{
+    text-align: center;
+    width: 50%;
+    color: #cdcccc;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.client-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+.client-logos img{
+    width: 220px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    object-fit: contain; 
+    height: auto; 
+}
