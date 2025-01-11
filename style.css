@@ -44,6 +44,7 @@ li a{
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
 }
 
 .white-button{
@@ -52,6 +53,17 @@ li a{
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
+}
+
+.black-button{
+    background-color: #000000;
+    color: #e7e7e7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    font-weight: bold;
 }
 
 .button-container{
@@ -138,6 +150,7 @@ i{
     padding: 20px;
     background-color: #ffffff;
     height: 100vh;
+    margin-top: 80px;
 }
 
 .our-clients-text{
@@ -166,7 +179,7 @@ i{
 .our-clients-text p{
     text-align: center;
     width: 50%;
-    color: #cdcccc;
+    color: #92959a;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -186,4 +199,61 @@ i{
     padding: 20px;
     object-fit: contain; 
     height: auto; 
+}
+
+/*about-us*/
+
+.about-us {
+    padding: 20px;
+    background-color: #f1f4f9;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-us-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    gap: 35px;
+}
+
+.about-us-text h3{
+    color: #1b1afe;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.about-us-text h2{
+    color: #000000;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.about-us-text ul{
+    display: flex;
+    gap: 10px;
+}
+
+.about-us-text li{
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #cdcccc;
+    padding: 5px 10px;
+    border-radius: 50px;
+    
+}
+
+.about-us-text p{
+    color: #92959a;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.about-us img{
+    width: 40%;
+    padding: 30px;
 }
