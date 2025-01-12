@@ -7,6 +7,7 @@
 
 
 
+
 /* header */
 
 header{
@@ -256,4 +257,134 @@ i{
 .about-us img{
     width: 40%;
     padding: 30px;
+}
+
+/*our-features*/
+
+.our-features {
+    padding: 20px;
+    background-color: #ffffff;
+    height: 100vh;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.our-features-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 35px;
+}
+
+.our-features-text h3{
+    color: #1b1afe;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.our-features-text h2{
+    color: #000000;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+
+}
+
+.our-features-text p{
+    text-align: center;
+    width: 50%;
+    color: #92959a;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.our-features-cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 14px 0px rgba(196,196,196,0.41);
+    -webkit-box-shadow: 6px 6px 14px 0px rgba(196,196,196,0.41);
+    -moz-box-shadow: 6px 6px 14px 0px rgba(196,196,196,0.41);
+    width: 300px;
+}
+
+.card p{
+    text-align: center;
+    color: #92959a;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.fa-code-branch{
+    font-size: 20px;
+    color: #1b1afe;
+}
+
+.fa-cloud{
+    font-size: 20px;
+    color: #ff9517;
+}
+
+.fa-code{
+    font-size: 20px;
+    color: #17e02e;
+}
+
+.learn-more-button{
+    color: #1b1afe;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.learn-more-button i{
+    color: #1b1afe;
+    font-size: 15px;
+}
+
+.icon-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f1f3ff;
+}
+
+.icon-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fef9f2;
+}
+
+.icon-container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f5fef5;
 }
