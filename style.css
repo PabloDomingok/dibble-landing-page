@@ -6,6 +6,7 @@
 }
 
 
+
 /* header */
 
 header{
@@ -543,4 +544,150 @@ i{
     font-size: 1.8rem;
     letter-spacing: 2px;
     line-height: 1.5;
+}
+
+/*pricing plan*/
+
+.pricing-plan {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.pricing-plan-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.pricing-plan-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.pricing-plan-text h3{
+    color: #1b1afe;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.pricing-plan-text h2{
+    color: #000000;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.pricing-plan-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%; 
+    max-width: 1200px;
+}
+
+.pricing-plan-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border: 2px solid #cdcccc;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px; 
+}
+
+.pricing-plan-containers-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pricing-plan-containers-list li{
+    display: flex;
+    align-items: center;
+    color: #cdcccc;
+    gap: 5px;
+}
+
+.pricing-plan-containers h2{
+    color: #000000;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.pricing-plan-containers h1{
+    color: #000000;
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+.pricing-plan-containers span{
+    color: #cdcccc;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.pricing-plan-containers p{
+    color: #cdcccc;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.blue-button{
+    background-color: #1b1afe;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;  
+    font-weight: bold;
+}
+
+.pricing-plan-containers i{
+    color: #1b1afe;
+}
+
+.line{
+    border-top: 2px solid #cdcccc;
+    width: 100%;
+}
+
+.plan-green {
+    background-color: #a7f36d;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    border-radius: 50px;
+}
+
+.plan-grey {
+    background-color: #cdcccc;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    border-radius: 50px;
 }
