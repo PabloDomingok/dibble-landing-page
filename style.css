@@ -875,3 +875,14 @@ i{
     color: #1b1afe;
     font-size: 20px;
 }
+
+.faq-answer {
+    display: none;
+    margin-top: 0.5rem;
+}
+.faq-answer.visible {
+    display: block;
+}
+
+
+
