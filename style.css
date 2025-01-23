@@ -835,7 +835,6 @@ i{
     color: #ffffff;
     font-size: 2.5rem;
     letter-spacing: 2px;
-    line-height: 1.5;
     text-align: center;
 }
 
@@ -987,4 +986,69 @@ i{
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+
+/*lets-try*/
+
+.lets-try {
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.lets-try-container{
+    background-image: url(assets/lets-try.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 80px;
+    border-radius: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.lets-try-container h3{
+    color: #1b1afe;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.lets-try-container h2{
+    color: #000000;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.lets-try-container p{
+    color: #cdcccc;
+    line-height: 1.5;
+}
+
+.lets-try-container input{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.lets-try-features{
+    display: flex;
+    gap:15px;
+}
+
+.lets-try-features p{
+    display: flex;
+    gap: 10px;
+    color: #000000;
+}
+
+.lets-try-features i{
+    color: #1b1afe;
 }
