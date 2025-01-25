@@ -84,6 +84,10 @@ i{
     font-size: 15px;
 }
 
+header img{
+    width: 150px;
+}
+
 /* main */
 
 /*hero*/
@@ -1056,7 +1060,7 @@ i{
 
 footer{
     padding: 100px 60px 15px 60px;
-    background-color: #1b1afe;
+    background-color: #000000;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -1075,6 +1079,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer-logo img{
+    width: 150px;
 }
 
 .footer-logo p{
