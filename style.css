@@ -1210,4 +1210,15 @@ footer{
     .hero-text p{
         text-align: center;
     }
+
+    /*our-clients-for-ipad*/
+
+    .our-clients-text h2{
+        text-align: center;
+    }
+    
+    .our-clients-text p{
+        text-align: center;
+        width: 80%;
+    }
 }
