@@ -5,9 +5,7 @@
     font-family: Poppins, sans-serif;
 }
 
-*{
-    outline: 1px solid red;
-}
+
 
 /* header */
 
@@ -892,7 +890,6 @@ header img{
     margin-top: 80px;
     padding: 20px;
     background-color: #ffffff;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1285,5 +1282,17 @@ footer{
     .testimonials-cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
+    }
+
+    /*lets-try-for-ipad*/
+
+    .lets-try-container{
+        background-image: none;
+        background-color: #f1f4f9;
+        align-items: center;
+    }
+
+    .lets-try-container h2{
+        text-align: center;
     }
 }
