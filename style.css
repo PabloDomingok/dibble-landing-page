@@ -1330,4 +1330,28 @@ footer{
         gap: 10px;
     }
 
+    /*our-clients-for-iphone*/
+
+    .our-clients-text{
+        width: 100%;
+        align-items: left;
+        gap: 25px;
+        margin: 50px 0px;
+    }
+
+    .our-clients-text h3{
+        width: 100%;
+    }
+
+    .our-clients-text p{
+        text-align: left;
+        width: 100%;
+    }
+
+    .client-logos img{
+        height: 150px;
+    }
+
+
+
 }
