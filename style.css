@@ -1279,4 +1279,11 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /*testimonials-for-ipad*/
+
+    .testimonials-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
 }
