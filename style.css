@@ -5,6 +5,9 @@
     font-family: Poppins, sans-serif;
 }
 
+*{
+    outline: 1px solid red;
+}
 
 /* header */
 
@@ -504,8 +507,7 @@ header img{
 
 .our-members-cards{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     gap: 20px;
     padding: 40px;
     margin: 40px;
@@ -1265,5 +1267,16 @@ footer{
 
     .how-it-works-text p{
         text-align: center;
+    }
+
+    /*our-members-for-ipad*/
+
+    .our-members-text h2{
+        text-align: center;
+    }
+
+    .our-members-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
