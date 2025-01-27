@@ -1240,5 +1240,11 @@ footer{
     .about-us-text p{
         text-align: center;
     }
+
+    /*our-features-for-ipad*/
+    
+    .card h4{
+        text-align: center;
+    }
     
 }
