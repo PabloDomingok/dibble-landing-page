@@ -1246,5 +1246,24 @@ footer{
     .card h4{
         text-align: center;
     }
-    
+
+    /*how-it-works-for-ipad*/
+
+    .how-it-works{
+        flex-direction: column;
+    }
+
+    .how-it-works-text{
+        width: 100%;
+        margin: 50px 0px 10px;
+        align-items: center;
+    }
+
+    .how-it-works-text h2{
+        text-align: center;
+    }
+
+    .how-it-works-text p{
+        text-align: center;
+    }
 }
