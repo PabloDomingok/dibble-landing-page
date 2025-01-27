@@ -1308,3 +1308,26 @@ footer{
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 390px) and (max-height: 844px){
+
+    /*hero-for-iphone*/
+
+    .hero{
+        background-image: none;
+        background-color: #1b1afe;
+    }
+
+    .hero-text{
+        width: 100%;
+        align-items: left;
+        gap: 25px;
+        margin: 50px 0px;
+    }
+    
+    .buttons-hero{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
