@@ -1352,6 +1352,21 @@ footer{
         height: 150px;
     }
 
+    /*about-us-for-iphone*/
 
+    .about-us-text{
+        width: 100%;
+        align-items: left;
+        gap: 25px;
+        margin: 50px 0px;
+    }
+
+    .about-us img{
+        display: none;
+    }
+
+    .about-us-text button{
+        width: 100%;
+    }
 
 }
