@@ -1395,4 +1395,25 @@ footer{
         gap: 20px;
     }
 
+    /*how-it-works-for-iphone*/
+
+    .how-it-works{
+        flex-direction: column;
+    }
+
+    .how-it-works-text{
+        width: 100%;
+        margin: 50px 0px 10px;
+        align-items: left;
+    }
+
+    .how-it-works-text button{
+        width: 100%;
+    }
+
+    .how-it-works-steps{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
