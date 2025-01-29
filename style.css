@@ -5,6 +5,9 @@
     font-family: Poppins, sans-serif;
 }
 
+*{
+    outline: 1px solid red;
+}
 
 /* header */
 
@@ -1367,6 +1370,29 @@ footer{
 
     .about-us-text button{
         width: 100%;
+    }
+
+    /*our-features-for-iphone*/
+
+    .our-features-text h2{
+        text-align: left;
+    }
+
+    .our-features-text h3{
+        width: 100%;
+        align-items: left;
+    }
+
+
+    .our-features-text p{
+        text-align: left;
+        width: 100%;
+    }
+
+    .our-features-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
