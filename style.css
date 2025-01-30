@@ -1454,4 +1454,16 @@ footer{
         width: 100%;
     }
 
+    /*testimonials-for-iphone*/
+
+    .testimonials-text p{
+        width: 100%;
+    }
+
+    .testimonials-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
