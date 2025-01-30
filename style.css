@@ -1391,7 +1391,10 @@ footer{
 
     .our-features-cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;        
+        margin: 5px;
+        margin-top: 30px;
+        align-items: center;
         gap: 20px;
     }
 
@@ -1414,6 +1417,19 @@ footer{
     .how-it-works-steps{
         display: flex;
         flex-direction: column;
+    }
+
+    /*our-members-for-iphone*/
+
+    .our-members-text h3{
+       width: 100%;
+    }
+
+    .our-members-cards{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 20px;
     }
 
 }
