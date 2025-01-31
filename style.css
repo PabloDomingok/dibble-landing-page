@@ -1466,4 +1466,21 @@ footer{
         gap: 20px;
     }
 
+    /*faqs-for-iphone*/
+
+    .faqs-container{
+        padding: 50px 50px;
+    }
+
+    .faqs-questions-container{
+        width: 200px;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .faq-item-text{
+        width: 250px;
+        gap: 10px;
+    }
+
 }
