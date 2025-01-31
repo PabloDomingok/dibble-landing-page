@@ -1511,6 +1511,31 @@ footer{
         padding: 20px;
     }
 
+    /*lets-try-for-iphone*/
 
+    .lets-try-container{
+        background-image: none;
+        background-color: #f1f4f9;
+        align-items: center;       
+    }
+    
+    .lets-try-container{
+        padding: 40px;
+        border-radius: 10px;
+        margin: 0;
+    }
 
+    .lets-try-container h2{
+        text-align: center;
+    }
+
+    .lets-try-container p{
+        text-align: center;
+    }
+
+    .lets-try-form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
