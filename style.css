@@ -1483,4 +1483,34 @@ footer{
         gap: 10px;
     }
 
+    /*blog-news-for-iphone*/
+
+    .blog-news-text{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .blog-news-text h2{
+        text-align: center;
+    }
+
+    .blog-news-text h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-news-text button{
+        width: 100%;
+    }
+
+    .blog-news-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+
+
 }
