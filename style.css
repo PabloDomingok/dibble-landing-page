@@ -1538,4 +1538,16 @@ footer{
         flex-direction: column;
         gap: 10px;
     }
+
+    /*footer-for-iphone*/
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
