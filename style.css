@@ -34,6 +34,10 @@ li a{
     cursor: pointer;
 }
 
+header a:hover{
+    color: #000000;
+}
+
 .li-pages{
     display: flex;
     align-items: center;
@@ -47,6 +51,13 @@ li a{
     border-radius: 5px;
     border: none;
     font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.3s;   
+}
+
+.green-button:hover{
+    background-color: #000000;
+    color: #a7f36d;
 }
 
 .white-button{
@@ -56,6 +67,13 @@ li a{
     border-radius: 5px;
     border: none;
     font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.white-button:hover{
+    background-color: #000000;
+    color: #e7e7e7;
 }
 
 .black-button{
@@ -66,6 +84,14 @@ li a{
     border: none;
     width: 120px;
     font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.black-button:hover{
+    background-color: #e7e7e7;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 .button-container{
@@ -653,6 +679,14 @@ header img{
     border-radius: 5px;
     border: none;  
     font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.blue-button:hover {
+    background-color: #ffffff;
+    color: #1b1afe;
+    box-shadow: inset 0 0 0 1px #1b1afe;
 }
 
 .pricing-plan-containers i{
@@ -1100,6 +1134,12 @@ footer{
 .footer-socials i{
     color: #ffffff;
     font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.footer-socials i:hover{
+    color: #a7f36d;
 }
 
 .footer-links-container{
@@ -1114,6 +1154,10 @@ footer{
     gap: 10px;
 }
 
+.footer-visit-us h4{
+    margin-bottom: 10px;
+}
+
 .footer-visit-us ul{
     display: flex;
     flex-direction: column;
@@ -1124,6 +1168,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer-contact-us h4{
+    margin-bottom: 10px;
 }
 
 .footer-contact-us ul{
@@ -1138,6 +1186,10 @@ footer{
     gap: 10px;
 }
 
+.footer-explore h4{
+    margin-bottom: 10px;
+}
+
 .footer-explore ul{
     display: flex;
     flex-direction: column;
@@ -1148,6 +1200,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer-support h4{
+    margin-bottom: 10px;
 }
 
 .footer-support ul{
